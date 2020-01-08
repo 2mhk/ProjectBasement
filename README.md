@@ -8,7 +8,7 @@ I just pick some basic code from my old code to make it easier for starting a ne
 
 You should test the function by yourself if you wanna use the code.
 
-I would like to help you if you have some problems with it.
+If you have problems with it,push an issue and i will be glad to answer you.
 
 
 ------
