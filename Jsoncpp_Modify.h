@@ -17,6 +17,8 @@
                 ParamText = falseValue;\
             Json_CheckEnd
 
+
+
 //使用中文写入json文件
 namespace Json
 {

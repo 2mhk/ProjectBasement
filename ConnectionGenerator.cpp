@@ -1,8 +1,6 @@
 #include "ConnectionGenerator.h"
 
 #include "GlobalControl.h"
-#include "QHollowImageWidget.h"
-#include "QMainMenu.h"
 
 #include <mutex>
 

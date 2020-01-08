@@ -6,7 +6,7 @@
 
 #include <QObject>
 
-#include "util.h"
+#include "Define.h"
 
 #include "ConnectionGenerator.h"
 

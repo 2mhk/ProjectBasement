@@ -3,7 +3,7 @@
 
 #include <QObject>
 #include <mutex>
-#include "util.h"
+#include "Define.h"
 
 #define ConnectionParamPointer(type,name,checkProcess) \
     type* name = NULL;\
