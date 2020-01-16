@@ -1,13 +1,3 @@
-/********************************************************************************
-*
-*	Description		定义文件，内部包含一些对程序的全局定义
-*	Version			1.0.1
-*	Author			Sherlock
-*	Creation Time	2018/8/1	1.0.1
-*	Modify
-*
-*******************************************************************************/
-
 #ifndef _DEFINE_H_
 #define _DEFINE_H_
 
@@ -17,8 +7,8 @@
 #include <QMetaType>
 #include <QTextCodec>
 
-//使能
-#define ENABLE_LOG_HEARTBREAK   0       //心跳Log
+//使锟斤拷
+#define ENABLE_LOG_HEARTBREAK   0       //锟斤拷锟斤拷Log
 
 static const std::string VERSION = "0.0.1";
 
@@ -31,7 +21,7 @@ static const QString PROJECT_NAME = QTextCodec::codecForLocale()->toUnicode("Pro
 
 //Q_DECLARE_METATYPE(cv::Mat);
 
-//Code只在第一次调用是生效
+//Code只锟节碉拷一锟轿碉拷锟斤拷锟斤拷锟斤拷效
 #define ProcessOnlyFirstTime(Code)\
     {\
         static bool isFirst = true;\

@@ -1,7 +1,3 @@
-/**************************************************
-此类中包含了一些常用的工具函数
-*****************************************************/
-
 #ifndef FUNCTION_H
 #define FUNCTION_H
 
@@ -37,8 +33,8 @@ public:
     template<typename _MapType>
     static auto get_map_key_value(const _MapType& input_map, const decltype(input_map.begin()->second)& mapped_value) -> decltype(input_map.begin()->first);        //Not Test yet
 
-    static std::string GetSubDir(std::string dir);      //具有限定规则，不完善，具体看函数
-    static std::string GetDirFileName(std::string dir);     //同上
+    static std::string GetSubDir(std::string dir);      //锟斤拷锟斤拷锟睫讹拷锟斤拷锟津，诧拷锟斤拷锟狡ｏ拷锟斤拷锟藉看锟斤拷锟斤拷
+    static std::string GetDirFileName(std::string dir);     //同锟斤拷
 
     template <class T>
     static void DeletePointer(T*& _pointer)

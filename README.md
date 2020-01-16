@@ -16,5 +16,5 @@ If you have problems with it,push an issue and i will be glad to answer you.
 
 Most of code is for c++11 and Qt,including some useful tools for Jsoncpp.
 
-"//Abandon" means code is not done yet.Interface or structure is bad or something else.
+"//Abandon" means code is not done yet.Interface or structure is not good or something else.
 
