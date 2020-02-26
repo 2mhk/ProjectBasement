@@ -3,6 +3,8 @@
 #include <windows.h>
 
 #include <assert.h>
+#include <iostream>
+#include <fstream>
 
 #include <QFile>
 #include <QDir>
@@ -273,6 +275,44 @@ std::string Function::GetDirFileName(std::string dir)
     }
 }
 
+bool Function::ReadFile(const std::string& filename, std::string& content)
+{
+    std::ifstream ifile;
+    ifile.open(filename, std::ifstream::binary);
+    if (ifile)
+    {
+        std::string str_file((std::istreambuf_iterator<char>(ifile)), std::istreambuf_iterator<char>());
+        content = str_file;
+        ifile.close();
+        return true;
+//  another way to read . 
+//         std::ifstream in("some.file");
+//         std::ostringstream tmp;
+//         tmp << in.rdbuf();
+//         std::string str = tmp.str();
+    }
+    else
+    {
+        ifile.close();
+        return false;
+    }
+}
+
+bool Function::WriteFile(const std::string& filename, const std::string& content)
+{
+    std::ofstream fout(filename, std::ifstream::binary);
+    if (fout)
+    {
+        fout << content;
+        fout.close();
+        return true;
+    }
+    else
+    {
+        fout.close();
+        return false;
+    }
+}
 
 
 #ifdef _WIN32

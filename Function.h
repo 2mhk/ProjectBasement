@@ -33,8 +33,11 @@ public:
     template<typename _MapType>
     static auto get_map_key_value(const _MapType& input_map, const decltype(input_map.begin()->second)& mapped_value) -> decltype(input_map.begin()->first);        //Not Test yet
 
-    static std::string GetSubDir(std::string dir);      //�����޶����򣬲����ƣ����忴����
-    static std::string GetDirFileName(std::string dir);     //ͬ��
+    static std::string GetSubDir(std::string dir);      //¾ßÓÐÏÞ¶¨¹æÔò£¬²»ÍêÉÆ£¬¾ßÌå¿´º¯Êý
+    static std::string GetDirFileName(std::string dir);     //Í¬ÉÏ
+
+    static bool ReadFile(const std::string& filename, std::string& content);
+    static bool WriteFile(const std::string& filename, const std::string& content);
 
     template <class T>
     static void DeletePointer(T*& _pointer)
