@@ -18,3 +18,12 @@ Most of code is for c++11 and Qt,including some useful tools for Jsoncpp.
 
 "//Abandon" means code is not done yet.Interface or structure is not good or something else.
 
+
+------
+ConnectionGenerator与设计预期不符，建议不要使用
+
+
+
+
+
+
