@@ -20,7 +20,7 @@ Most of code is for c++11 and Qt,including some useful tools for Jsoncpp.
 
 
 ------
-ConnectionGenerator与设计预期不符，建议不要使用
+ConnectionGenerator、JConfigManager与设计预期不符，建议不要使用
 
 
 
